@@ -143,7 +143,7 @@ const Home = () => {
               <iframe
                 src={resource.url}
                 width="100%"
-                height="200px"
+                height="500px"
                 title={resource.name}
                 style={{ borderRadius: "8px" }}
               />
