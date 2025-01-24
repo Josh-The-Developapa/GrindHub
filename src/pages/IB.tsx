@@ -101,10 +101,9 @@ const Home = () => {
   return (
     <>
       <Typography variant="h4" gutterBottom>
-              {/* <Emoji unified="1f44b" emojiStyle={emojiStyle} /> IB Resources Hub */}
-              <GreetingHeader>
-                  <Emoji unified="1f44b" emojiStyle={emojiStyle} /> &nbsp;&nbsp;IB Resources &nbsp;</GreetingHeader>
-            
+        {/* <Emoji unified="1f44b" emojiStyle={emojiStyle} /> IB Resources Hub */}
+        <GreetingHeader>
+            <Emoji unified="1f44b" emojiStyle={emojiStyle} /> &nbsp;&nbsp;IB Resources &nbsp;</GreetingHeader>
       </Typography>
           {/* <Typography variant="body1" paragraph> */}
               <GreetingText> Explore these amazing resources to aid your IB studies. Click on any link to get started:</GreetingText>
